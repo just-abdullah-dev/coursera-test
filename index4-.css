@@ -1,0 +1,47 @@
+body{
+    /* background-color: black; */
+    /* opacity: 0.7; */
+    background-image: url("Laptop.jpeg");
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font: bolder;
+    font-size:55px;
+}
+
+section>h2{
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    font: bolder;
+    font-size:44px;
+    opacity: 0.9;
+}
+section li{
+    color: whitesmoke;
+    font-size: 35px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
+article > h2{
+    color: green;
+    background-color: black;
+    text-align: center;
+    font: bolder;
+    font-size:44px;
+    opacity: 0.9;
+}
+article li{
+    color: whitesmoke;
+    font-size: 35px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
