@@ -1,47 +1,58 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
 body{
     /* background-color: black; */
     /* opacity: 0.7; */
-    background-image: url("Laptop.jpeg");
+    background-image: url("Apple_Image.jpg");
 }
-h1{
-    color: white;
-    background-color: black;
-    text-align: center;
+h1 a{
+    background-color: rgba(128, 128, 128, 0.4);
+    color: #f4b41a;
+    border: 1px solid black;
     font: bolder;
-    font-size:55px;
+    font-size:60px;
+    
 }
 
-section>h2{
-    background-color: black;
-    color: orangered;
-    text-align: center;
-    font: bolder;
-    font-size:44px;
-    opacity: 0.9;
-}
 section li{
+    list-style: none;
+}
+article li{
+    list-style: none;
+}
+
+section li {
     color: whitesmoke;
     font-size: 35px;
-    background-color: black;
-    opacity: 0.8;
     text-align: center;
-
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
-article > h2{
-    color: green;
-    background-color: black;
-    text-align: center;
-    font: bolder;
-    font-size:44px;
-    opacity: 0.9;
-}
 article li{
     color: whitesmoke;
     font-size: 35px;
-    background-color: black;
-    opacity: 0.8;
     text-align: center;
-
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
+section li:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.4);
+}
+article li:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+
+h2 a:link, h2 a:visited{
+    text-decoration: none;
+    color: #f4b41a;
+    font: bolder;
+    font-size:44px;
+    border: 1px solid black;
+}
+h2 a:hover{
+    color: #143d59;
+
+}
