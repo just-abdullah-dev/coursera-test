@@ -1,0 +1,25 @@
+body{
+    background-image: url('/Images/me.jpeg');
+    
+    
+}
+
+header{
+    text-decoration: none;
+    text-align: right;
+}
+
+header a:link, header a:visited{
+    text-decoration: none;
+    color: red;
+    font-size: 24px;
+    /* background-color: #24c/3f5; */
+    border: 1px solid black;
+}
+header a:hover{
+    padding-left: 100;
+    color: #24c3f5;
+    font-size: 24px;
+    /* background-color: black; */
+    border: 1px solid black;
+}

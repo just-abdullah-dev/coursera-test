@@ -5,10 +5,10 @@
 body{
     /* background-color: black; */
     /* opacity: 0.7; */
-    background-image: url("Apple_Image.jpg");
+    background-image: url("/Images/Apple_Image.jpg");
 }
 h1 a{
-    background-color: rgba(128, 128, 128, 0.4);
+    /* background-color: rgba(128, 128, 128, 0.767); */
     color: #f4b41a;
     border: 1px solid black;
     font: bolder;
