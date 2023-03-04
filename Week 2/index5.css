@@ -1,8 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-image: url('/Images/me.jpeg');
+    /* background-image: url('/Images/me.jpeg'); */
+    background-color: #24c3f5;
     
     
 }
+
 
 header{
     text-decoration: none;
@@ -11,15 +17,134 @@ header{
 
 header a:link, header a:visited{
     text-decoration: none;
-    color: red;
-    font-size: 24px;
-    /* background-color: #24c/3f5; */
+    color: #d81159;
+    font-size: 28px;
     border: 1px solid black;
+    margin-right: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
 }
 header a:hover{
-    padding-left: 100;
     color: #24c3f5;
-    font-size: 24px;
-    /* background-color: black; */
+    font-size: 28px;
+    background-color: black;
     border: 1px solid black;
 }
+
+h1{
+    text-align: center;
+    color: #d81159;
+    font-size: 74px;
+    font: bold;
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+h1:hover{
+    color: #24c3f5;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#sect1{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #d81159;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#p1{
+    width: 50px;
+    height: 50px;
+    background-color: #24c3f5;
+    border: 1px solid black;
+
+    float: left;
+    margin: 10px;
+}
+#p2{
+    width: 50px;
+    height: 50px;
+   background-color: red;
+   border: 1px solid black;
+
+   float: left;
+    margin: 10px;
+}
+#p3{
+    width: 50px;
+    height: 50px;
+    background-color: #f78708;
+    border: 1px solid black;
+
+    float: right;
+    margin: 10px;
+}
+#p4{
+    width: 50px;
+    height: 50px;
+   background-color: rgb(255, 0, 149);
+   border: 1px solid black;
+
+   float: right;
+    margin: 10px;
+}
+
+#sect2{
+    float: right;
+    width: 45%;
+    height: 500px;
+    background-color: #d81159;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+#p12{
+    width: 50px;
+    height: 50px;
+    background-color: #24c3f5;
+    border: 2px solid white;
+
+    float: left;
+    margin: 10px;
+}
+#p22{
+    width: 50px;
+    height: 50px;
+   background-color: red;
+   border: 2px solid white;
+
+   float: left;
+    margin: 10px;
+}
+#p32{
+    width: 50px;
+    height: 50px;
+    background-color: #f78708;
+    border: 2px solid white;
+
+    float: right;
+    margin: 10px;
+}
+#p42{
+    width: 50px;
+    height: 50px;
+   background-color: rgb(255, 0, 149);
+   border: 2px solid white;
+
+   float: right;
+    margin: 10px;
+}
+
+/* .back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
