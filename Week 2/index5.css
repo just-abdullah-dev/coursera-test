@@ -8,7 +8,13 @@ body{
     
     
 }
-
+/* .back-video{
+    position: relative;
+    top: 200px;
+    height: 100px;
+    overflow: auto;
+    overflow-clip-margin: border-box;
+} */
 
 header{
     text-decoration: none;
@@ -50,6 +56,46 @@ h1:hover{
     background-color: black;
     border-radius: 50px;
 }
+
+
+@media (max-width: 700px){
+    header a:link, header a:visited{
+        text-decoration: none;
+        color: #d81159;
+        font-size: 18px;
+        border: 1px solid black;
+        margin-right: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 50px;
+    }
+    header a:hover{
+        color: #24c3f5;
+        font-size: 18px;
+        background-color: black;
+        border: 1px solid black;
+    }
+    h1{
+        text-align: center;
+        color: #d81159;
+        font-size: 54px;
+        font: bold;
+        border: 1px solid black;
+        margin-right: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 50px;
+    }
+    h1:hover{
+        color: #24c3f5;
+        background-color: black;
+        border-radius: 50px;
+    }
+}
+
+
 
 #sect1{
     float: left;
@@ -143,8 +189,3 @@ h1:hover{
     margin: 10px;
 }
 
-/* .back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-} */
